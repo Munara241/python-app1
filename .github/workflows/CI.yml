@@ -22,4 +22,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: push image
-        run: docker build -t munara241/python-app1:1.0.0
+        run: docker push munara241/python-app1:1.0.0
